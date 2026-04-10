@@ -1,14 +1,13 @@
 import streamlit as st
 
-st.title("🎓 Sistem Rekomendasi Jurusan Kuliah Sederhana")
-st.write("Sistem Cerdas berbasis Rule (IF-ELSE)")
+st.title("🎓 Sistem Rekomendasi Jurusan Kuliah ")
 
 # Input
 minat = st.selectbox("Pilih Minat Anda:", ["Matematika & Logika", "Seni & Desain", "Biologi & Alam", "Sosial & Komunikasi", "Teknologi & Komputer"])
 kemampuan = st.selectbox("Pilih Kemampuan Unggulan:", ["Analitis", "Kreatif", "Hafalan", "Berbicara & Menulis", "Problem Solving"])
 nilai_un = st.selectbox("Nilai Rata-rata Rapor:", ["< 70", "70 - 80", "> 80"])
 
-if st.button("Dapatkan Rekomendasi"):
+if st.button("Rekomendasi"):
     rekomendasi = ""
     alasan = ""
 
