@@ -60,7 +60,7 @@ if st.button("Rekomendasi"):
     elif minat == "Sosial & Komunikasi":
         if kemampuan == "Berbicara & Menulis":
             rekomendasi = "Ilmu Komunikasi / Hubungan Internasional / Jurnalistik"
-            alasan = "Kemampuan komunikasi yang baik sangat cocok untuk jurusan sosial dan media."
+            alasan = "Kemampuan komunikasi yang baik cocok untuk jurusan sosial dan media."
         elif kemampuan == "Analitis":
             rekomendasi = "Hukum / Psikologi / Sosiologi"
             alasan = "Kemampuan analitis dan minat sosial cocok untuk jurusan hukum atau psikologi."
